@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "chess.ts": "^0.16.2",
+    "dotenv": "^16.0.3",
+    "socket.io": "^4.5.4"
+  }
+}
